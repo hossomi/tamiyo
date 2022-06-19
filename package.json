@@ -1,0 +1,14 @@
+{
+  "name": "tamiyo",
+  "version": "1.0.0",
+  "description": "A Magic The Gathering search tool",
+  "repository": "https://github.com/hossomi/tamiyo",
+  "author": "Marcelo Hossomi <marcelo.hossomi@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "server",
+    "client",
+    "shared/*"
+  ]
+}
