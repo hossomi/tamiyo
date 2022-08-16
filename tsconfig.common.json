@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",    
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,    
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,    
+    "composite": true,    
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "forceConsistentCasingInFileNames": true,    
+    "skipLibCheck": true
+  }
+}

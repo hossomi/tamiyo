@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.common.json",
+  "references": [
+    { "path": "../shared" }
+  ],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build"
+  }
+}

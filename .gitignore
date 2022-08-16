@@ -5,8 +5,6 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
@@ -18,7 +16,6 @@
 tsconfig.tsbuildinfo
 
 # yarn
-.pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

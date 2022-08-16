@@ -9,6 +9,13 @@
   "workspaces": [
     "server",
     "client",
-    "shared/*"
-  ]
+    "shared"
+  ],
+  "scripts": {
+    "build": "yarn tsc --build --verbose",
+    "clean": "yarn tsc --build --clean"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
