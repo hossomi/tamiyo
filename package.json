@@ -13,7 +13,9 @@
   ],
   "scripts": {
     "build": "yarn tsc --build --verbose",
-    "clean": "yarn tsc --build --clean"
+    "clean": "yarn tsc --build --clean",
+    "start:server": "yarn workspace @tamiyo/server start",
+    "start:client": "yarn workspace @tamiyo/client start"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
