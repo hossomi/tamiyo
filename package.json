@@ -15,6 +15,7 @@
     "build": "yarn tsc --build --verbose",
     "clean": "yarn tsc --build --clean",
     "start:server": "yarn workspace @tamiyo/server start",
+    "start:server:dev": "yarn workspace @tamiyo/server start:dev",
     "start:client": "yarn workspace @tamiyo/client start"
   },
   "devDependencies": {
