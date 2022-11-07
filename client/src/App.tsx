@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import { GREETER } from '@tamiyo/shared';
 import './App.css';
+import { gql, useQuery } from '@apollo/client';
 
 function App() {
-  const [text, setText] = useState("Loading...")
-  useEffect(() => {
-    fetch('/api')
-      .then(res => res.text())
-      .then(setText)
-  }, [])
+  const { loading, data, error } = useQuery(gql(`
+    query SayHello {
+      helloy
+    }
+  `))
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {GREETER}: {text}
+          {GREETER}: {loading ? 'Loading' : data?.hello || error?.message}
         </p>
         <a
           className="App-link"
