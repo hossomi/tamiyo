@@ -1,0 +1,10 @@
+type Set {
+    code: String,
+    name: String,
+    releaseDate: String
+}
+
+type Query {
+    sets: [String],
+    set(code: String): Set
+}

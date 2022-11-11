@@ -12,8 +12,8 @@
     "shared"
   ],
   "scripts": {
-    "build": "yarn tsc --build --verbose",
     "clean": "yarn tsc --build --clean",
+    "build": "yarn tsc --build --verbose",
     "start:server": "yarn workspace @tamiyo/server start",
     "start:server:dev": "yarn workspace @tamiyo/server start:dev",
     "start:client": "yarn workspace @tamiyo/client start"

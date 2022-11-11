@@ -1,2 +1,2 @@
-export const GREETER = 'Hossomi'
-export const GREETING = 'Hello world!' 
+export { Set } from './types'
+export { default as sets } from './generated/SetList.json'

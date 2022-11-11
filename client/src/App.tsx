@@ -6,7 +6,7 @@ import { gql, useQuery } from '@apollo/client';
 function App() {
   const { loading, data, error } = useQuery(gql(`
     query SayHello {
-      helloy
+      hello
     }
   `))
 
